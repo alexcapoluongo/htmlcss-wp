@@ -38,14 +38,6 @@ html{
 }
 
 
-footer{
-    height:40px;
-    width:100%;
-    background-color: violet;
-    margin-top:10px;
-}
-
-
 /* header */
 
 .header{
@@ -148,7 +140,6 @@ nav li a{
 .container-image-content{
     overflow:hidden;
     border-radius: 15px;
-    margin-bottom:10%;
     position:relative;
 }
 
@@ -165,6 +156,20 @@ nav li a{
 
 .content-text{
     margin-top:20px;
+    color:grey
+}
+
+.content-text h3{
+    margin-bottom:5%;
+}
+
+
+/* footer */
+
+footer{
+    height:40px;
+    width:100%;
+    margin-top:10px;
 }
 
 
