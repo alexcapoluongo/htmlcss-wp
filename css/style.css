@@ -12,6 +12,16 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    margin: 0 auto ;
+    width: 80%;
+}
+
+.margin{
+    margin-bottom: 30px;
+}
+
+
 /* clearfix */
 
 .clearfix::after {
@@ -21,21 +31,6 @@ html{
 }
 
 
-.container{
-    margin: 0 auto ;
-    width: 80%;
-}
-
-
-.margin{
-    margin-bottom: 30px;
-}
-
-
-.title{
-    height:20%;
-    /* background-color: #abcfe6; */
-}
 
 
 /* header */
@@ -89,7 +84,7 @@ nav li a{
     width:60%;
 }
 
-/* LAYOVERS */
+/* LAYOVER */
 .layover{
     background-color: rgba(0, 0, 0, .3);
     position:absolute;
@@ -124,7 +119,6 @@ nav li a{
     height:calc(80% - 20px);
     float:left;
     margin-top:10px;
-   
 }
 
 .side-item{
@@ -143,17 +137,6 @@ nav li a{
     position:relative;
 }
 
-/* layover content */
-
-.layover2{
-    background-color: rgba(0, 0, 0, .2);
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;  
-}
-
 .content-text{
     margin-top:20px;
     color:grey
@@ -170,6 +153,13 @@ footer{
     height:40px;
     width:100%;
     margin-top:10px;
+    text-align:center;
+    padding:5%;
+    margin-bottom:20px;
+}
+
+.heart{
+    color:red;
 }
 
 
@@ -178,7 +168,3 @@ footer{
 
 
 
-
-
-
-*/
