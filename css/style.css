@@ -27,8 +27,8 @@ html{
 }
 
 .content{
-    background-color:#0084fd;
-    height:300px;
+    /* background-color:#0084fd; */
+    /* height:300px; */
 }
 
 .margin{
@@ -46,7 +46,7 @@ html{
 
 .title{
     height:20%;
-    background-color: #abcfe6;
+    /* background-color: #abcfe6; */
 }
 
 .central-item{
@@ -54,7 +54,6 @@ html{
     margin-left:10px;
     margin-right:10px;
     /* margin: 0 10 */
-
 }
 
 .side-item{
@@ -73,8 +72,9 @@ footer{
 
 .header{
     width:100%;
+}
 
-.logo{
+.logo-image{
     width:120px;
     border-right: 2px lightgrey solid;
     padding-right:10px;
@@ -103,13 +103,12 @@ nav li a{
     border-radius: 15px;
 
 }
+
 .banner-img{
     width:100%;
     height:100%;
     object-fit:cover;
     max-width: 1800px;
-
-
 }
 
 .banner-text{
@@ -128,10 +127,26 @@ nav li a{
     left:0;
     width:100%;
     height:100%;
-
 }
 
+/* title */
 
+.title{
+    height:20%;
+}
+
+.text-s{
+    font-size: 1em;
+    color:#c2c2c2;
+}
+
+/* items */
+
+.image-side{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
 
 
 
